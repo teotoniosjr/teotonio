@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+:root{
+    --cor-letra: #f0f4ef;
+    --cor-secundaria: #344966;
+    --cor-primaria: #b4cded;
+    --cor-destaque: #0d1821;
+    --cor-branco: #f9f9f9;
+    --fonte-texto:  "Space Grotesk", system-ui;
+    --fonte-titulo: "Protest Strike", sans-serif;
+}
+
+
+
+body{
+    font-family: var(--fonte-texto);
+    background: var(--cor-primaria);
+}
+
+.img-thumbnail{
+    border: 2px solid var(--cor-letra)
+}
+
+h1, h2, h3{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-destaque);
+}
+
+.card{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-letra);
+}
+
+footer a{
+    color: var(--cor-letra);
+}
